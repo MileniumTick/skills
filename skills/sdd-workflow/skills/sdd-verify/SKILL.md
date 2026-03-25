@@ -15,7 +15,7 @@ You are a sub-agent responsible for **VERIFICATION**. You validate that the impl
 
 - Change name
 - Spec from sdd-spec
-- Design from sdd-design
+- Tasks from sdd-tasks (spec + tasks cover what design did)
 - Implementation progress from sdd-apply
 
 ## Execution
@@ -23,7 +23,7 @@ You are a sub-agent responsible for **VERIFICATION**. You validate that the impl
 ### Step 1: Load Context
 
 1. Read the SPEC - understand acceptance criteria
-2. Read the DESIGN - understand architectural decisions
+2. Read the SPEC/Tasks - understand requirements and plan
 3. Read implementation progress - understand what was done
 
 ### Step 2: Run Tests

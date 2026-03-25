@@ -40,13 +40,24 @@ Si la tarea es compleja, multi-archivo, o necesita planeación:
 | Comando | Qué hace |
 |---------|----------|
 | `/sdd-init` | Detecta stack, bootstraps persistencia, build skill registry |
+| `/sdd-status` | Muestra el estado actual del cambio SDD activo |
 | `/sdd-explore <topic>` | Investiga el codebase, identifica riesgos |
-| `/sdd-new <name>` | Inicia nuevo cambio: explore → proposal → spec → design → tasks |
+| `/sdd-new <name>` | Inicia nuevo cambio: explore → spec → tasks |
 | `/sdd-continue` | Ejecuta la siguiente fase lista |
 | `/sdd-spec <name>` | Escribe specs delta (ADDED/MODIFIED/REMOVED) |
 | `/sdd-apply` | Implementa tareas en batches |
 | `/sdd-verify` | Valida implementación contra specs con tests reales |
 | `/sdd-archive` | CIerra cambio y persiste estado final |
+
+### /sdd-status
+
+Muestra el estado actual del cambio SDD activo:
+- Fase actual
+- Artefactos creados
+- Tareas completadas
+- Próxima fase recomendada
+
+**Nota**: El sistema ya soporta checkpoints vía Engram. Usa `mem_save` después de cada fase completada para persistir el estado.
 
 ## Flujo SDD
 
@@ -57,7 +68,6 @@ ORCHESTRATOR (delegar todo):
   → /sdd-explore oauth-integration
   → Muestra resumen, user aprueba
   → /sdd-spec oauth-feature  
-  → /sdd-design oauth-architecture
   → /sdd-tasks oauth-implementation
   → /sdd-apply (batch 1)
   → /sdd-apply (batch 2)
@@ -83,6 +93,18 @@ Todo sub-agente debe retornar:
 
 **Risks**: riesgos descubiertos o "None"
 ```
+
+### Result Contract Schema
+
+| Campo | Tipo | Requerido | Descripción |
+|-------|------|-----------|-------------|
+| status | enum | ✅ | success, partial, blocked |
+| summary | string | ✅ | 1-3 oraciones |
+| artifacts | array | ❌ | archivos o topic keys |
+| next | string | ✅ | siguiente fase o "none" |
+| risks | string | ✅ | riesgos o "None" |
+
+**Validación**: El orquestador debe verificar que el resultado cumpla con el schema antes de proceder a la siguiente fase.
 
 ## Auto-detección de Skills
 
@@ -128,12 +150,10 @@ El orquestador detecta automáticamente qué skills cargar según el stack del p
 ## Phase Dependencies
 
 ```
-explore ──┬──> spec ──> tasks ──> apply ──> verify ──> archive
-          │                                         
-          └- design ───────────────────────────────┘
+explore ──> spec ──> tasks ──> apply ──> verify ──> archive
 ```
 
-- `spec` y `design` pueden correr en paralelo (sin dependencias)
+- `spec` y `tasks` son fases secuenciales
 - `apply` puede correr en batches
 - `verify` siempre después de `apply`
 - `archive` siempre al final
@@ -145,18 +165,18 @@ Skills de dominio disponibles en `~/.agents/skills/`:
 | Dominio | Skill | Para qué |
 |---------|-------|----------|
 | Frontend | `frontend-react` | Componentes React, TanStack, Tailwind |
-| Frontend | `tanstack-query` | Server state management |
-| Frontend | `tanstack-router` | Type-safe routing |
-| Frontend | `vercel-react` | Next.js performance |
+| Frontend | `tanstack-query-best-practices` | Server state management |
+| Frontend | `tanstack-router-best-practices` | Type-safe routing |
+| Frontend | `vercel-react-best-practices` | Next.js performance |
 | Backend | `backend-elysia` | Elysia + Drizzle + Auth |
 | Backend | `elysiajs` | Framework patterns |
 | DB | `drizzle-orm` | ORM patterns |
 | DB | `postgresql-optimization` | Advanced Postgres |
 | DB | `sql-optimization` | Query tuning |
 | Testing | `vitest` | Unit tests |
-| Testing | `playwright` | E2E tests |
+| Testing | `playwright-best-practices` | E2E tests |
 | Testing | `testing-workflow` | Testing strategy |
 | DevOps | `docker-openserve` | Docker + observability |
-| Auth | `better-auth` | Authentication |
+| Auth | `better-auth-best-practices` | Authentication |
 | UI/UX | `ui-ux-pro-max` | Design patterns |
 | CSS | `tailwind-design-system` | Design tokens |

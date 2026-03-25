@@ -17,6 +17,8 @@ Auto-detect which skill to use:
 
 | Task Type | Trigger Words | Skill |
 |-----------|---------------|-------|
+| Create AGENTS.md | "create agents", "agents.md", "agent config" | `create-agentsmd` |
+| Create README | "create readme", "new project readme" | `create-readme` |
 | Frontend component | "component", "button", "modal", "UI" | `frontend-react` |
 | Frontend state | "state", "store", "atom", "query" | `tanstack-query-best-practices` |
 | Frontend routing | "route", "page", "navigation" | `tanstack-router-best-practices` |
@@ -34,6 +36,9 @@ Auto-detect which skill to use:
 | UI/UX | "design", "style", "animation" | `ui-ux-pro-max` |
 | CSS/Tailwind | "css", "tailwind", "style" | `tailwind-design-system` |
 | Python | "python", "py", "dataclass" | `python-best-practices` |
+| Refactor code | "refactor", "improve", "cleanup" | `refactor` |
+| Architecture | "architecture", "pattern", "clean" | `architecture-patterns` |
+| Find skill | "find skill", "which skill", "need skill" | `find-skills` |
 
 ## Execution
 
