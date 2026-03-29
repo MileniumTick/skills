@@ -595,6 +595,456 @@
       "pluginName": "marketing-skills",
       "installedAt": "2026-03-29T09:54:50.098Z",
       "updatedAt": "2026-03-29T09:54:50.098Z"
+    },
+    "backtest-expert": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/backtest-expert/SKILL.md",
+      "skillFolderHash": "bf034f210adecd2e3ccd388ba516aaf0fa0dad19",
+      "installedAt": "2026-03-29T10:49:59.330Z",
+      "updatedAt": "2026-03-29T10:49:59.330Z"
+    },
+    "breadth-chart-analyst": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/breadth-chart-analyst/SKILL.md",
+      "skillFolderHash": "4d1f003a1a059a54190ecdd1a3436383f47b512f",
+      "installedAt": "2026-03-29T10:49:59.768Z",
+      "updatedAt": "2026-03-29T10:49:59.768Z"
+    },
+    "canslim-screener": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/canslim-screener/SKILL.md",
+      "skillFolderHash": "85cb021c51f1cfa5752de2ffddbb54a04c904ebe",
+      "installedAt": "2026-03-29T10:50:00.275Z",
+      "updatedAt": "2026-03-29T10:50:00.275Z"
+    },
+    "data-quality-checker": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/data-quality-checker/SKILL.md",
+      "skillFolderHash": "fa885a3ab2f48353b445ccc2aa1920072e66308f",
+      "installedAt": "2026-03-29T10:50:00.786Z",
+      "updatedAt": "2026-03-29T10:50:00.786Z"
+    },
+    "dividend-growth-pullback-screener": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/dividend-growth-pullback-screener/SKILL.md",
+      "skillFolderHash": "3d15ff640d4e8de2cdb54152abffb725604fc595",
+      "installedAt": "2026-03-29T10:50:01.207Z",
+      "updatedAt": "2026-03-29T10:50:01.207Z"
+    },
+    "dual-axis-skill-reviewer": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/dual-axis-skill-reviewer/SKILL.md",
+      "skillFolderHash": "412b757ed72f624ba08aa6832180928006bbf75d",
+      "installedAt": "2026-03-29T10:50:01.710Z",
+      "updatedAt": "2026-03-29T10:50:01.710Z"
+    },
+    "earnings-calendar": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/earnings-calendar/SKILL.md",
+      "skillFolderHash": "ee241fddab9afd32c534b8939b037268ccc3ca58",
+      "installedAt": "2026-03-29T10:50:02.118Z",
+      "updatedAt": "2026-03-29T10:50:02.118Z"
+    },
+    "earnings-trade-analyzer": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/earnings-trade-analyzer/SKILL.md",
+      "skillFolderHash": "2a1c8363e7dd3c647189b7b1f06574b957527123",
+      "installedAt": "2026-03-29T10:50:02.541Z",
+      "updatedAt": "2026-03-29T10:50:02.541Z"
+    },
+    "economic-calendar-fetcher": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/economic-calendar-fetcher/SKILL.md",
+      "skillFolderHash": "8c6ea13c31ca1c6999fab391221ea756a88a6c5c",
+      "installedAt": "2026-03-29T10:50:02.941Z",
+      "updatedAt": "2026-03-29T10:50:02.941Z"
+    },
+    "edge-candidate-agent": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/edge-candidate-agent/SKILL.md",
+      "skillFolderHash": "a8879c36fdde689a87950340861521eb80da67be",
+      "installedAt": "2026-03-29T10:50:03.342Z",
+      "updatedAt": "2026-03-29T10:50:03.342Z"
+    },
+    "edge-concept-synthesizer": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/edge-concept-synthesizer/SKILL.md",
+      "skillFolderHash": "9b7568357f188d6d0b1d9ff839fc9f70656af0f0",
+      "installedAt": "2026-03-29T10:50:03.747Z",
+      "updatedAt": "2026-03-29T10:50:03.747Z"
+    },
+    "edge-hint-extractor": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/edge-hint-extractor/SKILL.md",
+      "skillFolderHash": "86f51bc79b3a210f6d6a5ef7fd19b15017b16644",
+      "installedAt": "2026-03-29T10:50:04.227Z",
+      "updatedAt": "2026-03-29T10:50:04.227Z"
+    },
+    "edge-pipeline-orchestrator": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/edge-pipeline-orchestrator/SKILL.md",
+      "skillFolderHash": "cb7a3da6ee4459e4f8c3339f5d3719e38627ad20",
+      "installedAt": "2026-03-29T10:50:04.685Z",
+      "updatedAt": "2026-03-29T10:50:04.685Z"
+    },
+    "edge-signal-aggregator": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/edge-signal-aggregator/SKILL.md",
+      "skillFolderHash": "ac66889ce022c43f3c682273a34fbf7e2f3940da",
+      "installedAt": "2026-03-29T10:50:05.163Z",
+      "updatedAt": "2026-03-29T10:50:05.163Z"
+    },
+    "edge-strategy-designer": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/edge-strategy-designer/SKILL.md",
+      "skillFolderHash": "771d2b0d52f303125a1086e1dfa3c9c1fd357642",
+      "installedAt": "2026-03-29T10:50:05.550Z",
+      "updatedAt": "2026-03-29T10:50:05.550Z"
+    },
+    "edge-strategy-reviewer": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/edge-strategy-reviewer/SKILL.md",
+      "skillFolderHash": "85fcf8d1e837d4a42fbd11555cf4bd3795f95632",
+      "installedAt": "2026-03-29T10:50:05.955Z",
+      "updatedAt": "2026-03-29T10:50:05.955Z"
+    },
+    "exposure-coach": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/exposure-coach/SKILL.md",
+      "skillFolderHash": "e1ae08d4d6b6d7fbe7c95eb3b0dfdcf9084c93ab",
+      "installedAt": "2026-03-29T10:50:06.426Z",
+      "updatedAt": "2026-03-29T10:50:06.426Z"
+    },
+    "finviz-screener": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/finviz-screener/SKILL.md",
+      "skillFolderHash": "d371063e4b81f446743c599e3024be511433878a",
+      "installedAt": "2026-03-29T10:50:06.857Z",
+      "updatedAt": "2026-03-29T10:50:06.857Z"
+    },
+    "ftd-detector": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/ftd-detector/SKILL.md",
+      "skillFolderHash": "7ea03ad93f84040ccc3046284799ce85aecb17dd",
+      "installedAt": "2026-03-29T10:50:07.280Z",
+      "updatedAt": "2026-03-29T10:50:07.280Z"
+    },
+    "institutional-flow-tracker": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/institutional-flow-tracker/SKILL.md",
+      "skillFolderHash": "af50cf5f8a8de61527b571d54376cb7002d3fd7e",
+      "installedAt": "2026-03-29T10:50:07.675Z",
+      "updatedAt": "2026-03-29T10:50:07.675Z"
+    },
+    "kanchi-dividend-review-monitor": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/kanchi-dividend-review-monitor/SKILL.md",
+      "skillFolderHash": "ee359785066ec90538bcfb6ebe2e6bedd6d71bc7",
+      "installedAt": "2026-03-29T10:50:08.159Z",
+      "updatedAt": "2026-03-29T10:50:08.159Z"
+    },
+    "kanchi-dividend-sop": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/kanchi-dividend-sop/SKILL.md",
+      "skillFolderHash": "0294e24f3765dce4a5a590ef15f5f655b33fe569",
+      "installedAt": "2026-03-29T10:50:08.568Z",
+      "updatedAt": "2026-03-29T10:50:08.568Z"
+    },
+    "kanchi-dividend-us-tax-accounting": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/kanchi-dividend-us-tax-accounting/SKILL.md",
+      "skillFolderHash": "229e9f2c8c41baeac3f8bfccb920f25ec12bd451",
+      "installedAt": "2026-03-29T10:50:09.015Z",
+      "updatedAt": "2026-03-29T10:50:09.015Z"
+    },
+    "macro-regime-detector": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/macro-regime-detector/SKILL.md",
+      "skillFolderHash": "87620ba9da54a1bac9954cb135b61a63c2eaa29b",
+      "installedAt": "2026-03-29T10:50:09.590Z",
+      "updatedAt": "2026-03-29T10:50:09.590Z"
+    },
+    "market-breadth-analyzer": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/market-breadth-analyzer/SKILL.md",
+      "skillFolderHash": "f5f83257c440a7a2f5c1c82c8586eb92e47b4ce5",
+      "installedAt": "2026-03-29T10:50:10.011Z",
+      "updatedAt": "2026-03-29T10:50:10.011Z"
+    },
+    "market-environment-analysis": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/market-environment-analysis/SKILL.md",
+      "skillFolderHash": "44a2c31c6d0a5f00b04764fb11382b3478911e29",
+      "installedAt": "2026-03-29T10:50:10.529Z",
+      "updatedAt": "2026-03-29T10:50:10.529Z"
+    },
+    "market-news-analyst": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/market-news-analyst/SKILL.md",
+      "skillFolderHash": "baf01e1a8ec9805c168191960e80c3a040c94c8f",
+      "installedAt": "2026-03-29T10:50:10.943Z",
+      "updatedAt": "2026-03-29T10:50:10.943Z"
+    },
+    "market-top-detector": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/market-top-detector/SKILL.md",
+      "skillFolderHash": "7645ba95e2664514ed5ab93302b35a7574440c65",
+      "installedAt": "2026-03-29T10:50:11.367Z",
+      "updatedAt": "2026-03-29T10:50:11.367Z"
+    },
+    "options-strategy-advisor": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/options-strategy-advisor/SKILL.md",
+      "skillFolderHash": "b04a03bf1b9f4fe4f9cb62592469a74d8e1c979e",
+      "installedAt": "2026-03-29T10:50:11.802Z",
+      "updatedAt": "2026-03-29T10:50:11.802Z"
+    },
+    "pair-trade-screener": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/pair-trade-screener/SKILL.md",
+      "skillFolderHash": "d608b08093f931cbfd216581f713c074e083d24e",
+      "installedAt": "2026-03-29T10:50:12.222Z",
+      "updatedAt": "2026-03-29T10:50:12.222Z"
+    },
+    "pead-screener": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/pead-screener/SKILL.md",
+      "skillFolderHash": "88e00ab2fa6e1024d82c69c7861b3f195b9f67ef",
+      "installedAt": "2026-03-29T10:50:12.626Z",
+      "updatedAt": "2026-03-29T10:50:12.626Z"
+    },
+    "portfolio-manager": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/portfolio-manager/SKILL.md",
+      "skillFolderHash": "9f3524e569ded1971cb7e138e9f7d7c8856882e7",
+      "installedAt": "2026-03-29T10:50:13.019Z",
+      "updatedAt": "2026-03-29T10:50:13.019Z"
+    },
+    "position-sizer": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/position-sizer/SKILL.md",
+      "skillFolderHash": "0273404995b7431b4083b6624f097afa2d3b797a",
+      "installedAt": "2026-03-29T10:50:13.416Z",
+      "updatedAt": "2026-03-29T10:50:13.416Z"
+    },
+    "scenario-analyzer": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/scenario-analyzer/SKILL.md",
+      "skillFolderHash": "5235cf2a5435253826b244424458518067adb6a4",
+      "installedAt": "2026-03-29T10:50:13.891Z",
+      "updatedAt": "2026-03-29T10:50:13.891Z"
+    },
+    "sector-analyst": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/sector-analyst/SKILL.md",
+      "skillFolderHash": "dceb3a130e803e3a5cf6f6ae61a11557624633dd",
+      "installedAt": "2026-03-29T10:50:14.318Z",
+      "updatedAt": "2026-03-29T10:50:14.318Z"
+    },
+    "signal-postmortem": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/signal-postmortem/SKILL.md",
+      "skillFolderHash": "01c36947a9a54f89916b88dfc8d2705c29a8d010",
+      "installedAt": "2026-03-29T10:50:14.772Z",
+      "updatedAt": "2026-03-29T10:50:14.772Z"
+    },
+    "skill-designer": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/skill-designer/SKILL.md",
+      "skillFolderHash": "38cbddefd035b6a113f7582ec60756453e74a6d5",
+      "installedAt": "2026-03-29T10:50:15.164Z",
+      "updatedAt": "2026-03-29T10:50:15.164Z"
+    },
+    "skill-idea-miner": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/skill-idea-miner/SKILL.md",
+      "skillFolderHash": "5c0591dd77f16a2bb7e49239f3c6848009f7c3c1",
+      "installedAt": "2026-03-29T10:50:15.574Z",
+      "updatedAt": "2026-03-29T10:50:15.574Z"
+    },
+    "skill-integration-tester": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/skill-integration-tester/SKILL.md",
+      "skillFolderHash": "a4ee4fed58f2ad7aeae9212c7b4b367f1fd5dd7e",
+      "installedAt": "2026-03-29T10:50:16.056Z",
+      "updatedAt": "2026-03-29T10:50:16.056Z"
+    },
+    "stanley-druckenmiller-investment": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/stanley-druckenmiller-investment/SKILL.md",
+      "skillFolderHash": "1dfa3b84e9b19343168b2d2e8ead5ce9cd8d531c",
+      "installedAt": "2026-03-29T10:50:16.488Z",
+      "updatedAt": "2026-03-29T10:50:16.488Z"
+    },
+    "strategy-pivot-designer": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/strategy-pivot-designer/SKILL.md",
+      "skillFolderHash": "192177d427c6980057134060fd610a01a223c351",
+      "installedAt": "2026-03-29T10:50:16.970Z",
+      "updatedAt": "2026-03-29T10:50:16.970Z"
+    },
+    "technical-analyst": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/technical-analyst/SKILL.md",
+      "skillFolderHash": "2bffbe15077fafbe5e910b43c5e8368b2853cae3",
+      "installedAt": "2026-03-29T10:50:17.410Z",
+      "updatedAt": "2026-03-29T10:50:17.410Z"
+    },
+    "theme-detector": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/theme-detector/SKILL.md",
+      "skillFolderHash": "d8418de9bb9ce89a110620608bde0c65174cddac",
+      "installedAt": "2026-03-29T10:50:17.906Z",
+      "updatedAt": "2026-03-29T10:50:17.906Z"
+    },
+    "trade-hypothesis-ideator": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/trade-hypothesis-ideator/SKILL.md",
+      "skillFolderHash": "a2ccd790f625658ad3270e1cc26700d6ee649df7",
+      "installedAt": "2026-03-29T10:50:18.406Z",
+      "updatedAt": "2026-03-29T10:50:18.406Z"
+    },
+    "trader-memory-core": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/trader-memory-core/SKILL.md",
+      "skillFolderHash": "a4225e8627c9f142d6bc0fd067347ec68d444f1b",
+      "installedAt": "2026-03-29T10:50:18.868Z",
+      "updatedAt": "2026-03-29T10:50:18.868Z"
+    },
+    "uptrend-analyzer": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/uptrend-analyzer/SKILL.md",
+      "skillFolderHash": "be15a83fc0a92118c8d152d3ab4bfeb6a54a822d",
+      "installedAt": "2026-03-29T10:50:19.321Z",
+      "updatedAt": "2026-03-29T10:50:19.321Z"
+    },
+    "us-market-bubble-detector": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/us-market-bubble-detector/SKILL.md",
+      "skillFolderHash": "9c2002a5ee86d92439250ba16e514154b5720980",
+      "installedAt": "2026-03-29T10:50:19.781Z",
+      "updatedAt": "2026-03-29T10:50:19.781Z"
+    },
+    "us-stock-analysis": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/us-stock-analysis/SKILL.md",
+      "skillFolderHash": "467949f4846bdc0207b67e7c82aa14b2b38c7d8f",
+      "installedAt": "2026-03-29T10:50:20.238Z",
+      "updatedAt": "2026-03-29T10:50:20.238Z"
+    },
+    "value-dividend-screener": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/value-dividend-screener/SKILL.md",
+      "skillFolderHash": "d8eded852c16430e19617430a7f58f90091ae63f",
+      "installedAt": "2026-03-29T10:50:20.664Z",
+      "updatedAt": "2026-03-29T10:50:20.664Z"
+    },
+    "vcp-screener": {
+      "source": "tradermonty/claude-trading-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tradermonty/claude-trading-skills.git",
+      "skillPath": "skills/vcp-screener/SKILL.md",
+      "skillFolderHash": "6f031492f0a0d9d562052eb4538d634966b05fb3",
+      "installedAt": "2026-03-29T10:50:21.080Z",
+      "updatedAt": "2026-03-29T10:50:21.080Z"
     }
   },
   "dismissed": {
